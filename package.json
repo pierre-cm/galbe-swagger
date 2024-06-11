@@ -1,8 +1,23 @@
 {
   "name": "galbe-swagger",
+  "version": "1.0.0",
   "description": "Swagger UI plugin for Galbe",
   "module": "index.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pierre-cm/galbe-swagger"
+  },
+  "homepage": "https://galbe.dev/plugins/swagger",
+  "keywords": [
+    "galbe",
+    "plugin",
+    "swagger",
+    "ui",
+    "openapi",
+    "api"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest",
     "@types/swagger-ui-dist": "^3.30.4",
