@@ -1,6 +1,6 @@
 {
   "name": "galbe-swagger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Swagger UI plugin for Galbe",
   "module": "index.ts",
   "type": "module",
@@ -18,13 +18,15 @@
     "api"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/swagger-ui-dist": "^3.30.4",
-    "swagger-ui-dist": "^5.17.14"
-  },
   "peerDependencies": {
     "galbe": "*",
     "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/swagger-ui-dist": "^3.30.4"
+  },
+  "dependencies": {
+    "swagger-ui-dist": "^5.17.14"
   }
 }
