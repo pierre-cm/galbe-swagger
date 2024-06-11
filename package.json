@@ -1,0 +1,15 @@
+{
+  "name": "galbe-swagger",
+  "description": "Swagger UI plugin for Galbe",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/swagger-ui-dist": "^3.30.4",
+    "swagger-ui-dist": "^5.17.14"
+  },
+  "peerDependencies": {
+    "galbe": "*",
+    "typescript": "^5.0.0"
+  }
+}
