@@ -19,7 +19,6 @@ const galbe = new Galbe({
       path: "/docs",
       auto: true,
       spec: {
-        // Open API 3.0 spec
         info: {
           title: "Galbe Swagger Plugin API",
           description: "Description of Galbe Swagger API.",
@@ -41,6 +40,6 @@ export default galbe
 
 **path** (string): Path to serve the Swagger UI. Default: `/docs`.
 
-**auto** (boolean): Auto infer routes from Galbe instance. Default: `true`.
+**auto** (boolean): Auto infer spec from Galbe instance. Default: `true`.
 
 **spec** (object): Open API 3.0 spec. Default: `{}`. If auto is `true` it will overrides auto inferred properties.

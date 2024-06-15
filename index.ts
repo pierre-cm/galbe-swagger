@@ -16,8 +16,7 @@ const softMerge = (base: any, override: any) => {
 export default {
   name: "swagger",
   async init(config, galbe: Galbe) {
-    if (!config?.enabled) return
-
+    if (!(config?.enabled ?? true)) return
     let basePath = config?.path || DEFAULT_PATH
     if (!basePath.startsWith("/")) basePath = `/${basePath}`
     let auto = config?.auto ?? true
