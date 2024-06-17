@@ -1,5 +1,7 @@
 # Galbe Swagger Plugin
 
+Swagger UI plugin for [Galbe](https://galbe.dev/) framework.
+
 # Install
 
 ```bash
